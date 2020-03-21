@@ -1,0 +1,10 @@
+send @all /echo <<<<Tele-DEM RING >>>>
+send akiro exec brddem;
+wait .1;
+send peipei exec WHMdem;
+wait .1;
+send amoeben exec CORdem;
+wait .1;
+send reniero exec Reddem;
+wait .1;
+send nanoo exec samdem;

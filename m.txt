@@ -1,0 +1,10 @@
+send @all / <<< Mount all >>>
+send akiro exec Akiromount;
+wait .1;
+send peipei exec WHMmount;
+wait .1;
+send amoeben exec Cormount;
+wait .1;
+send reniero exec Redmount;
+wait .1;
+send nanoo exec Sammount;

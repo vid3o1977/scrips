@@ -1,0 +1,10 @@
+send @all /echo <<<< temps buy >>>>
+send akiro exec akirotemps;
+wait .1;
+send peipei exec WHMtemps;
+wait .2;
+send amoeben exec CORtemps;
+wait .3;
+send nanoo exec nanootemps;
+wait .4;
+send reniero exec Redtemps;

@@ -1,0 +1,12 @@
+input /ja "Light Arts" <me>; wait 3;
+input /ja "Addendum: White" <me>; wait 3;
+input /ja "Composure" <me>; wait 3;
+input /ma "Haste II" <me>; wait 6;
+input /ma "Refresh II" <me>; wait 5.5;
+input /ma "Aurorastorm" <me>; wait 5;
+input /ma "Haste II" <Peipei>; wait 6;
+input /ma "Refresh II" <Peipei>; wait 6;
+input /ma "Haste II" <Akiro>; wait 6;
+input /ma "Haste II" <Nanoo>; wait 6;
+input /ma "Haste II" <Amoeben>; wait 3;
+send @all /echo <<<<<<Base Buffs RED DON>>>>>

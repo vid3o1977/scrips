@@ -1,0 +1,23 @@
+input /ma "Victory March" <me>
+wait 7
+input /ma "Blade Madrigal" <me> 
+wait 7
+input /console gs c cycle ExtraSongsModeDummy
+input /ma "Valor Minuet IV" <me> 
+wait 7
+input /console gs c cycle ExtraSongsModeDummy
+input /ma "Valor Minuet V" <me>
+wait 7
+input /ja "Troubadour" <me>
+wait 3
+input /ja "Marcato" <me>
+wait 3
+input /ja "Nightingale" <me>
+wait 3
+input /ma "Victory March" <me>
+wait 7
+input /ma "Blade Madrigal" <me> 
+wait 7
+input /ma "Valor Minuet IV" <me>
+wait 7
+input /ma "Valor Minuet V" <me>

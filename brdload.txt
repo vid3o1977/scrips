@@ -1,0 +1,10 @@
+lua l Equipviewer; wait 2;
+lua l Anchor; wait 2;
+lua l superwarp; wait 2;
+lua l react; wait 2;
+lua l PartyBuffs; wait 2;
+lua l FastFollow; wait 1;
+pcmd add Amoeben; wait 1;
+pcmd add Peipei; wait 1;
+pcmd add Nanoo; wait 1;
+pcmd add Reniero

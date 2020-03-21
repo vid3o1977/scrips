@@ -1,0 +1,3 @@
+lua l Anchor; wait 2;
+lua l superwarp; wait 2;
+lua l FastFollow

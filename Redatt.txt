@@ -1,0 +1,8 @@
+assist akiro; wait 4;
+input /attack <t>; wait 1;
+lua l AutoWS; wait 1;
+autows on; wait 1;
+autows use <Savage Blade>; wait 1;
+input /ma "Distract II" <t>; wait 6;
+input /ma "Dia III" <t>; wait 3;
+input /ma "Inundation" <t>

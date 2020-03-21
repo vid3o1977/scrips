@@ -1,0 +1,10 @@
+assist akiro; wait 2;
+input /attack <t>; wait 1;
+lua l AutoWS; wait 1;
+autows on; wait 1;
+autows use <Savage Blade>
+
+---Last stand
+---Savage Blade
+---Leaden Salute
+------input /ja "Triple Shot" <me>; wait 2;

@@ -1,0 +1,5 @@
+send @all /echo Base Buffs RUN and COR
+wait .1;
+send amoeben exec CORbase;
+wait .1;
+send reniero exec Runbase;

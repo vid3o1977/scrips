@@ -1,0 +1,10 @@
+send @all /echo <<<< Temps >>>> 
+send akiro exec TempsDD;
+wait .1;
+send peipei exec Tempswhm;
+wait .1;
+send amoeben exec TempsDD;
+wait .1;
+send nanoo exec TempsDD;
+wait .1;
+send reniero exec TempsDD;

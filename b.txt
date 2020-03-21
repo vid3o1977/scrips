@@ -1,0 +1,8 @@
+send @all /echo Base Buffs
+send peipei exec WHMbase;
+wait .2;
+send amoeben exec CORbase;
+wait .2;
+send nanoo exec NCorbase;
+wait .2;
+send reniero exec Redbase;

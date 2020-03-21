@@ -1,0 +1,10 @@
+send @all /echo <<<< Doom >>>> 
+send akiro exec Doom1;
+wait .1;
+send peipei exec Doom1;
+wait .1;
+send amoeben exec Doom1;
+wait .1;
+send nanoo exec Doom1;
+wait .1;
+send reniero exec Doom1;

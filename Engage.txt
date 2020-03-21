@@ -1,0 +1,4 @@
+input /console gs c cycle tpmode
+lua l AutoWS; wait .5;
+autows on; wait .5;
+autows use <Rudra's Storm>

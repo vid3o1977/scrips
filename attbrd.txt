@@ -1,0 +1,10 @@
+send @all /echo <<<< Attack >>>> 
+send akiro exec Engage;
+wait .2;
+send peipei exec WHMatt;
+wait .1;
+send amoeben exec CORatt;
+wait .1;
+send reniero exec Redatt;
+wait .1;
+send nanoo exec nanooatt

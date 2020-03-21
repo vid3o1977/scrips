@@ -1,0 +1,23 @@
+input /ja "Troubadour" <me>
+wait 2
+input /ja "Nightingale" <me>
+wait 2
+input /ja "Marcato" <me>
+wait 2
+input /ma "Honor March" <me>
+wait 5
+input /ma "Victory March" <me>
+wait 5
+input /ma "Blade Madrigal" <me>
+wait 5
+input /ma "Valor Minuet V" <me>
+wait 5
+input /ja "Pianissimo" <me>
+wait 1
+input /ma "Mage's Ballad III" <peipei>
+wait 5
+input /ja "Pianissimo" <me>
+wait 1
+input /ma "Mage's Ballad III" <Jdeep>
+wait 3
+send akiro /p BRD songs Done ( MAX Magic Haste set 54% )

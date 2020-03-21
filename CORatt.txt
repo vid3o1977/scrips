@@ -1,0 +1,12 @@
+input /equip main "Naegling"; wait .5;
+input /equip sub "Blurred Knife +1"; wait .5;
+assist akiro; wait 2;
+input /attack <t>; wait 1;
+lua l AutoWS; wait .5;
+autows on; wait .5;
+autows use <Savage Blade>
+
+---Last stand
+---Savage Blade
+---Leaden Salute
+------input /ja "Triple Shot" <me>; wait 2;

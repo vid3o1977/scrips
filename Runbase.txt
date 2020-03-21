@@ -1,0 +1,21 @@
+input /ma "Crusade" <me>
+wait 5
+input /ma "Barblizzard" <me>
+wait 5
+input /ma "Barparalyze" <me>
+wait 5
+input /ma "Aquaveil" <me>
+wait 5
+input /ma "Phalanx" <me>
+wait 5
+input /ma "Temper" <me>
+wait 5
+input /ma "Lux" <me>
+wait 6
+input /ma "Lux" <me>
+wait 6
+input /ma "Lux" <me>; wait .5;
+lua l AutoWS; wait .5;
+autows on; wait .5;
+autows use <Resolution>; wait .5;
+send @all /echo <<<<<<Base Buffs RUN DON>>>>>

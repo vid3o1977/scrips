@@ -1,0 +1,10 @@
+send @all /echo <<<< Reraise >>>> 
+send akiro exec Reraise;
+wait .1;
+send peipei exec Reraise;
+wait .1;
+send amoeben exec Reraise;
+wait .1;
+send nanoo exec Reraise;
+wait .1;
+send reniero exec Reraise;

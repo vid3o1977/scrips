@@ -1,0 +1,10 @@
+send @all / <<< Disount all >>>
+send akiro exec AkiroDismount;
+wait .1;
+send peipei exec WHMDismount;
+wait .1;
+send amoeben exec CorDismount;
+wait .1;
+send reniero exec RedDismount;
+wait .1;
+send nanoo exec SamDismount;

@@ -1,0 +1,22 @@
+input /ja "Troubadour" <me>
+wait 2
+input /ja "Nightingale" <me>
+wait 2
+input /ja "Marcato" <me>
+wait 2
+input /ma "Honor March" <me>
+wait 5
+input /ma "Knight's Minne V" <me> 
+wait 5
+input /console gs c cycle ExtraSongsModeDummy
+input /ma "Knight's Minne IV" <me> 
+wait 5
+input /console gs c cycle ExtraSongsModeDummy
+input /ma "Fire Carol II" <me>
+wait 5
+input /ma "Knight's Minne IV" <me> 
+wait 5
+input /ma "Fire Carol II" <me>
+wait 3
+send akiro /p BRD songs Done ( Tank set DEF + Fire Carol )
+

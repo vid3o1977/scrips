@@ -1,0 +1,29 @@
+input /ja "Clarion Call" <me>
+wait 2
+input /ja "Soul Voice" <me>
+wait 2
+input /ja "Nightingale" <me>
+wait 2
+input /ma "Honor March" <me>
+wait 5
+input /ma "Blade Madrigal" <me> 
+wait 5
+input /ma "Valor Minuet V" <me>
+wait 5
+input /ma "Fire Carol II" <me>
+wait 5
+input /ma "Light Carol II" <me>
+wait 5
+input /ja "Troubadour" <me>
+wait 2
+input /ma "Honor March" <me>
+wait 5
+input /ma "Blade Madrigal" <me> 
+wait 5
+input /ma "Valor Minuet V" <me>
+wait 5
+input /ma "Fire Carol II" <me>
+wait 5
+input /ma "Light Carol II" <me>
+wait 2
+send akiro /p BRD songs done ( Soul Voice Light/Fire Carol set )

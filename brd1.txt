@@ -1,0 +1,10 @@
+send @all /echo <<<<Base Buffs (accuracy) for brd whm Cor>>>>
+send akiro exec acc;
+wait .1;
+send peipei exec WHMbase;
+wait .1;
+send amoeben exec CORbase;
+wait .1;
+send nanoo exec nanoobase;
+wait .1;
+send reniero exec Redbase;

@@ -1,0 +1,18 @@
+input /ma "Foil" <me>; wait 2;
+input /ma "Flash" <bt>; wait 2;
+input /ja "Odyllic Subterfuge" <me>; wait 5;
+input /ja "Valiance" <me>; wait 5;
+input /ma "Flash" <bt>; wait 2;
+input /ma "stun" <bt>; wait 2;
+input /ja "One for All" <me>; wait 2;
+input /ma "Foil" <me>; wait 2;
+input /ma "Lux" <me>; wait 8;
+input /ma "Lux" <me>; wait 8;
+input /ma "Lux" <me>; wait 9;
+input /ma "Flash" <bt>; wait 2;
+input /ma "stun" <bt>; wait 2;
+send @all /echo <<<<<<Base att RUN DON>>>>>
+
+
+---assist akiro; wait 2;
+---input /attack <t>; wait 1;

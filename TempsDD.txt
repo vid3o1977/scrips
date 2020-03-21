@@ -1,0 +1,9 @@
+input /item "Pair of lucid wings II" <me>;
+wait 4;
+input /item "Bottle of Monarch's Drink" <me>;
+wait 4;
+input /item "Bottle of Braver's Drink" <me>;
+wait 4;
+input /item "Bottle of Fighter's Drink" <me>;
+wait 4;
+input /item "Bottle of Soldier's Drink" <me>;

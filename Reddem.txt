@@ -1,0 +1,4 @@
+gs disable ring2; wait 2;
+input /equip ring2 "Dimensional ring (Dem)"; wait 11;
+input /item "Dimensional ring (Dem)" <me>; wait 17;
+gs enable ring2

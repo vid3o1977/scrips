@@ -1,0 +1,8 @@
+send @all /echo Base Buffs for whm geo
+send akiro exec Drgbase;
+wait .1;
+send peipei exec WHMbase;
+wait .1;
+send amoeben exec CORbase;
+wait .1;
+send reniero exec Redbase;

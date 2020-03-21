@@ -1,0 +1,29 @@
+input /ja "Troubadour" <me>
+wait 2
+input /ja "Nightingale" <me>
+wait 2
+input /ja "Marcato" <me>
+wait 2
+input /ma "Knight's Minne V" <me>
+wait 6
+input /ma "Honor March" <me>
+wait 6
+input /console gs c cycle ExtraSongsModeDummy
+input /ma "Valor Minuet IV" <me> 
+wait 6
+input /console gs c cycle ExtraSongsModeDummy
+input /ma "Valor Minuet V" <me>
+wait 6
+input /ma "Valor Minuet IV" <me>
+wait 6
+input /ma "Valor Minuet V" <me>
+wait 6
+input /ja "Pianissimo" <me>
+wait 1
+input /ma "Mage's Ballad III" <peipei>
+wait 6
+input /ja "Pianissimo" <me>
+wait 1
+input /ma "Mage's Ballad III" <jdeep>
+wait 3
+send akiro /p BRD songs Done ( Misk set )

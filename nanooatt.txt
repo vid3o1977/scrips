@@ -1,0 +1,7 @@
+assist akiro; wait 2;
+input /attack <t>; wait 1;
+input /ja "Aggressor" <me>; wait 1.8; 
+input /ja "Berserk" <me>; wait 1.5;
+lua l AutoWS; wait 1;
+autows on; wait 1;
+autows use <Tachi: Fudo>

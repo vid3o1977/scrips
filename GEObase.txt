@@ -1,0 +1,3 @@
+input /ma "Indi-Fury" <me>; wait 8;
+input /ja "Entrust" <me>; wait 4;
+input /ma "Indy-Precision" <Akiro>;

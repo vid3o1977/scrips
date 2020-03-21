@@ -1,0 +1,6 @@
+send @all /echo <<<< Attack >>>> 
+send peipei exec WHMatt;
+wait .1;
+send amoeben exec CORatt;
+wait .1;
+send nanoo exec CORaatt;

@@ -1,0 +1,2 @@
+input /ja "Hasso" <me>; wait 2; 
+input /ja "Meditate" <me>; wait 2;

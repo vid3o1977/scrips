@@ -1,0 +1,10 @@
+send @all /echo <<<< Charm >>>> 
+send akiro exec Charm1;
+wait .1;
+send peipei exec Charm1;
+wait .1;
+send amoeben exec Charm1;
+wait .1;
+send nanoo exec Charm1;
+wait .1;
+send reniero exec Charm1;

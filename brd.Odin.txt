@@ -1,0 +1,19 @@
+input /ja "Troubadour" <me>
+wait 2
+input /ja "Nightingale" <me>
+wait 2
+input /ja "Marcato" <me>
+wait 2
+input /ma "Victory March" <me>
+wait 7
+input /ma "Knight's Minne III" <me> 
+wait 7
+input /console gs c cycle ExtraSongsModeDummy
+input /ma "Knight's Minne V" <me> 
+wait 7
+input /console gs c cycle ExtraSongsModeDummy
+input /ma "Knight's Minne IV" <me>
+wait 7
+input /ma "Knight's Minne V" <me> 
+wait 7
+input /ma "Knight's Minne IV" <me>

@@ -1,0 +1,6 @@
+lua load autocor;
+wait .1;
+cor on;
+wait 120;
+cor off
+

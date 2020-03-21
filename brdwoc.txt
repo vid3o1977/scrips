@@ -1,0 +1,23 @@
+input /ja "Soul Voice" <me>
+wait 2
+input /ja "Troubadour" <me>
+wait 2
+input /ja "Nightingale" <me>
+wait 2
+input /ma "Victory March" <me>
+wait 3
+input /ma "Blade Madrigal" <me> 
+wait 3
+input /ja "Clarion Call" <me>
+wait 2
+input /ma "Sword Madrigal" <me>
+wait 3
+input /console gs c cycle ExtraSongsModeDummy
+input /ma "Earth Carol" <me> 
+wait 3
+input /console gs c cycle ExtraSongsModeDummy
+input /ma "Wind Carol" <me>
+wait 3
+input /ma "Valor Minuet V" <me>
+wait 3
+input /ma "Lightning Carol II" <me>

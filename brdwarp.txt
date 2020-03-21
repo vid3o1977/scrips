@@ -1,0 +1,4 @@
+gs disable ring2; wait 2;
+input /equip ring2 "Warp ring"; wait 11;
+input /item "Warp ring" <me>; wait 17;
+gs enable ring2

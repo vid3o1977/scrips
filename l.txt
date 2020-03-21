@@ -1,0 +1,10 @@
+send @all /echo <<<< load all >>>> 
+send akiro exec brdload;
+wait .1;
+send peipei exec WHMload;
+wait .1;
+send amoeben exec CORload;
+wait .1;
+send nanoo exec samload;
+wait .1;
+send reniero exec Redload;
