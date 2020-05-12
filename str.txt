@@ -1,0 +1,29 @@
+input /ja "Troubadour" <me>
+wait 2
+input /ja "Nightingale" <me>
+wait 2
+input /ja "Marcato" <me>
+wait 2
+input /ma "Honor March" <me>
+wait 7
+input /ma "Valor Minuet IV" <me>
+wait 7
+input /console gs c cycle ExtraSongsModeDummy
+input /ma "Valor Minuet V" <me> 
+wait 7
+input /console gs c cycle ExtraSongsModeDummy
+input /ma "Herculean Etude" <me>
+wait 7
+input /ma "Valor Minuet V" <me>
+wait 7
+input /ma "Herculean Etude" <me>
+wait 7
+input /ja "Pianissimo" <me>
+wait 1
+input /ma "Mage's Ballad III" <peipei>
+wait 5
+input /ja "Pianissimo" <me>
+wait 2
+input /ma "Mage's Ballad III" <Reniero>
+wait 3
+send akiro /p BRD songs Done ( Att+str set )
