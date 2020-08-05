@@ -1,0 +1,12 @@
+send @all /echo <<<<Warp>>>>
+send akiro exec brdwarp;
+wait .1;
+send peipei exec WHMwarp;
+wait .1;
+send amoeben exec CORwarp;
+wait .1;
+send reniero exec Redwarp;
+wait .1;
+send nanoo exec samwarp;
+wait .1;
+send ellesas exec CORwarp;
