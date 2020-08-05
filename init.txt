@@ -39,20 +39,87 @@ echo DrawDistance Lv 10: Alt-F10
 echo DrawDistance Lv 1: Ctrl-F10
 echo Paste Clipboard = Ctrl-V
 
+
 //Sets ConsoleBG Background Position
 consolebg position 15 50
 
 // *** ALLIANCE TARGET KEYS ***
 // This lets you push Alt+F1-6 and Ctrl+F1-6 to  to target Alliance members.
-bind ^f1 input /ta <a10>
-bind ^f2 input /ta <a11>
-bind ^f3 input /ta <a12>
-bind ^f4 input /ta <a13>
-bind ^f5 input /ta <a14>
-bind ^f6 input /ta <a15>
-bind !f1 input /ta <a20>
-bind !f2 input /ta <a21>
-bind !f3 input /ta <a22>
-bind !f4 input /ta <a23>
-bind !f5 input /ta <a24>
-bind !f6 input /ta <a25>
+bind @numpad- 
+bind !pagedown sat youattack Akiro; wait .1;sat youattack amoeben; wait .1;sat youattack ellesas; wait .1
+bind !end send Akiro exec allatt
+bind !numpad+ sat youcommand Akiro "Light Threnody II"; wait .5; send @all /echo Light Threnody II STUPPET FUCKS
+bind !home sat youcommand Akiro "Horde Lullaby"; wait .5; send @all /echo SLEEP ALL U STUPPET FUCKS
+bind ^home sat youcommand Akiro "Horde Lullaby II"; wait .5; send @all /echo SLEEP2 ALL U STUPPET FUCKS
+bind !numpad/ send Akiro exec warp
+bind !numpad* send Akiro exec Dem
+bind !numpad- send Akiro exec Temps
+bind !numpad1 send Akiro exec acc
+bind !numpad2 send Akiro exec str
+bind !numpad3 send Akiro exec hst
+bind !numpad4 send Akiro exec brdmisk
+bind !numpad6 send Akiro exec dummy
+bind !numpad9 send Akiro exec soul1
+bind !q send nanoo exec mirror
+bind @numpad1 send Nanoo exec awo
+bind @numpad2 send Nanoo exec Autows6
+bind @numpad3 send Nanoo exec awf
+bind ~numpad/ send nanoo exec allinit
+bind ^numpad1 send Akiro exec trust
+bind ^numpad2 send Akiro exec trust1
+bind ^numpad3 send Akiro exec trust2
+bind ^numpad7 send Akiro exec 
+bind !numpad0 send nanoo exec f
+bind ^numpad0 send nanoo exec sf
+bind !f1 send amoeben exec cor1
+bind !f2 send amoeben exec cor2 
+bind !f3 send amoeben exec cor4 
+bind !f4 send amoeben exec CORatt 
+bind ^f1 sat youcommand amoeben "Light Shot" 
+bind ^f2 send amoeben "Random Deal"
+bind ^f3 send amoeben exec cor2 
+bind ^f4 send amoeben exec CORatt1 
+bind ~numpad1 send Reniero exec GEOall; wait .5; send @all /echo GEO ATT OP
+bind ~numpad2 send Reniero exec GEOall1; wait .5; send @all /echo GEO MAeve OP
+bind ~numpad3 send Reniero 
+bind ~numpad4 send Reniero input /ma "Indi-Fury" Reniero; wait .5; send @all /echo GEO ATT OP
+bind ~numpad5 send Reniero input /ma "Indi-Acumen" Reniero; wait .5; send @all /echo GEO MAB OP
+bind ~numpad6 send Reniero input /ma "Indi-Refresh" Reniero; wait .5; send @all /echo GEO Refresh OP
+bind ~numpad7 send Reniero exec haste
+bind ~numpad9 send Reniero exec Bolster
+bind ~numpad+ send nanoo exec 1timer
+bind @delete sat youcommand Akiro "Carnage Elegy"; wait 6;sat youcommand Akiro "Light Threnody II"
+bind ~delete sat youcommand Reniero "Blind II"
+bind ^delete sat youcommand Akiro "Magic Finale"; wait .1;sat youcommand Reniero "Dispel"; wait .5; send @all /echo Dispel
+bind !f5 sat youcommand Reniero "Dia III"; wait 6;sat youcommand Reniero "Frazzle III"; wait 6;sat youcommand Reniero "Distract III"; wait 6;sat youcommand Reniero "Slow II"; wait 6;sat youcommand Reniero "Paralyze II";sat youcommand Reniero "Addle II"
+bind !f6 send Reniero exec hasteII
+bind !delete sat youcommand Reniero stun; wait .5; send @all /echo STUN JUST USED IT
+bind !g send Peipei exec WHMbase
+bind ~i send Peipei input /ma "Cure IV" ellesas
+bind ~o send Peipei input /ma "Cure V" ellesas
+bind ~p send Peipei input /ma "Cure VI" ellesas
+bind ^i send Peipei input /ma "Cure IV" Akiro
+bind ^o send Peipei input /ma "Cure V" Akiro
+bind ^p send Peipei input /ma "Cure VI" Akiro
+bind !i send Peipei input /ma "Cure IV" nanoo
+bind !o send Peipei input /ma "Cure V" nanoo
+bind !p send Peipei input /ma "Cure VI" nanoo
+bind !j send Peipei input /ma "Curaga III" Peipei
+bind !k send Peipei input /ma "Curaga IV" Peipei
+bind !l send Peipei input /ma "Curaga V" Peipei
+bind !v send Peipei Erase nanoo
+bind !b send Peipei Paralyna nanoo
+bind !n send Peipei Stona nanoo
+bind !m send Peipei Cursna nanoo
+bind !, send Peipei Viruna nanoo
+bind !. send Peipei Poisona nanoo
+
+alias hpa hp all 
+alias fat Tribulens
+alias far Radialens
+alias fa Findall 
+alias famc Findall mystical canteen
+alias sah send @all hasteII
+alias sar send @all Arise
+alias sa send @all
+alias e exec
