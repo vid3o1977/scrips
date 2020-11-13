@@ -8,3 +8,5 @@ wait .1;
 send reniero exec Reddem;
 wait .1;
 send nanoo exec samdem;
+wait .1;
+send ellesas exec CORdem;
