@@ -1,0 +1,16 @@
+input /ja "Light Arts" <me>; wait 1;
+input /ja "Addendum: White" <me>; wait 1.5;
+input /ja "Afflatus Solace" <me>; wait 1.5;
+input /ja "Sublimation" <me>; wait 1.5;
+input /ma "Haste" <me>; wait 8;
+input /ma "Protectra V" <me>; wait 6;
+input /ma "Shellra V" <me>; wait 6;
+input /ma "Reraise IV" <me>; wait 9;
+input /ma "Aurorastorm" <me>; wait 6;
+input /ma "Boost-STR" <me>; wait 6;
+input /ja "accession" <me>; wait 1;
+input /ma "Regen IV" <me>; wait 6;
+input /ma "Barfira" <me>; wait 5;
+input /ma "Barpetra" <me>; wait 5;
+input /ma "Auspice" <me>; wait 3;
+send @all /echo <<<<<<Base Buffs WHM DON>>>>>
