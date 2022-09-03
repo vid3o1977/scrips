@@ -1,0 +1,4 @@
+send @all /echo <<<<<<Starting boost>>>>>
+gs disable Waist
+wait .5
+input /equip Waist "Ask sash"

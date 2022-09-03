@@ -1,0 +1,14 @@
+must be at the top of your mnk file
+-- Additional local binds
+
+send_command('!f3 send nerval exec booston')
+send_command('!f4 send nerval exec boostoff')
+
+or this in your init.txt
+bind !f3 send nerval exec booston
+bind !f4 send nerval exec boostoff
+so when you press your alt button and F3 it starts
+and alt F4 to stop it
+
+booston in your scripts file 
+boostoff in your scripts file 
