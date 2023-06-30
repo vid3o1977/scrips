@@ -49,127 +49,186 @@ consolebg position 15 50
 bind @t send Akiro exec treasury
 bind @pageup send nanoo sat youattack ellesas; wait .1;send ellesas ffo Nanoo
 bind !pageup send Akiro input /attackoff; wait .1;send amoeben input /attackoff; wait .1;send Nanoo input /attackoff;wait .1;send ellesas input /attackoff;
-bind !pagedown sat youattack Akiro; wait .1;sat youattack amoeben; wait .1;sat youattack Nanoo;wait .1;sat youattack ellesas; wait .1;
-
+bind !pagedown sat youattack Akiro; wait .1;sat youattack amoeben; wait .1;sat youattack Nanoo;wait .1;wait .1;sat youattack ellesas;
 ---(wait .1;sat youattack ellesas; wait .1;sat youcommand ellesas "dia";)
 
+bind @end send Akiro exec allmac
 bind !end send Akiro exec allatt
-bind !numpad+ sat youcommand Akiro "Light Threnody II"; wait .5; send @all /echo Light Threnody II STUPPET FUCKS
-bind @home sat youcommand Akiro "Horde Lullaby"; wait .5; send @all /echo SLEEP ALL U STUPPET FUCKS
-bind !home sat youcommand Akiro "Horde Lullaby II"; wait .5; send @all /echo SLEEP2 ALL U STUPPET FUCKS
-bind !numpad/ send Akiro exec 
-bind !numpad* send Akiro exec 
 bind !numpad- send Akiro exec Temps
 bind !numpad1 send Akiro exec acc
 bind !numpad2 send Akiro exec str
 bind !numpad3 send Akiro exec hst
 bind !numpad5 send Akiro exec rng
 bind !numpad6 send Akiro 
-bind !numpad8 send Akiro exec woc
+bind !numpad8 send Akiro exec Asouligen
 bind !numpad9 send Akiro exec soul1
 bind @numpad1 send Akiro exec awo
 bind @numpad2 send Akiro exec awo1
 bind @numpad3 send Akiro exec awf
 bind @numpad/ send Akiro exec allinit 
-bind !@numpad1 send Akiro exec ifrit
-bind !@numpad3 send Akiro exec Ramuh
 bind @numpad6 send Akiro exec 
 bind !s send Akiro input /ja "Shield Bash" <t>
+bind @!q send Akiro exec mirror
 
-bind @1 send Akiro input /ma "flash" <t>
-bind @2 send Akiro input /ma "Stun" <t>
-bind @3 send Akiro input /ma "Poisonga" <t>
-bind @4 send Akiro input /ma "Geist Wall" <t>
-bind @5 send Akiro input /ma "Sheep Song" <t>
-bind @6 send Akiro input /ma "Blank Gaze" <t>
-bind @7 send Akiro input /ma "Jettatura" <t>
-bind @8 send Akiro input /ma "" <t>
-bind @9 send Akiro input /ma "" <t>
-bind @0 send Akiro "Liement"
 
-bind !@^numpad9 send Akiro exec 2souls
+--- Tank
+bind @1 send Akiro flash; wait 1;send @all /echo flash mob
+bind @2 send Akiro Stun; wait 1;send @all /echo Stun mob
+bind @3 send Akiro Geist Wall; wait 1;send @all /echo Geist Wall mob
+bind @4 send Akiro Sheep Song; wait 1;send @all /echo Sheep Song mob
+bind @5 send Akiro Blank Gaze; wait 1;send @all /echo Blank Gaze mob
+bind @6 send Akiro Jettatura; wait 1;send @all /echo Jettatura mob
+bind @7 send Akiro Lunge; wait 1;send @all /echo Geist Lunge all runes
+bind @8 send Akiro Swipe; wait 1;send @all /echo Swipe single rune
+bind @0 send Akiro Liement; wait 1;send @all /echo Liement 	Absorbs elemental damage
 
+--- Brd akiro
 bind ^numpad1 send amoeben exec Aacc
 bind ^numpad2 send amoeben exec Astr
 bind ^numpad3 send amoeben exec Ahst
 bind ^numpad4 send amoeben exec ASS
 bind ^numpad5 send amoeben input /ja "Corsair's Roll" <me>
 bind ^numpad6 send amoeben input /ja "Double-Up" <me>
-bind ^numpad7 send amoeben exec brdmisk
-bind ^numpad8 send amoeben exec soulrang
+bind ^numpad7 send amoeben exec Asouligen1
+bind ^numpad8 send amoeben exec Asouligen
 bind ^numpad9 send amoeben exec Asoul
 
-bind @!q send Akiro exec mirror
+
 bind #numpad0 send Akiro exec Fakiro
 bind !numpad0 send Akiro exec f
 bind ^numpad0 send Akiro exec sf
 
 bind !f1 send amoeben exec cor1
-bind !f2 send amoeben exec cor7
-bind !f3 send Ellesas exec cor1 
-bind !f4 send Ellesas exec cor7  
+bind !f2 send amoeben exec cor2
+bind @!f1 send amoeben exec LightShot
+bind @!f2 send amoeben exec EarthShot
+
+bind !f3 send nanoo exec cor1og5 
+bind !f4 send nanoo exec cor2 
+bind @!f3 send nanoo exec LightShot
+bind @!f4 send nanoo exec EarthShot
+
 bind ^f2 send amoeben "Random Deal"
-bind ^f3 send Ellesas "Random Deal" 
+bind ^f3 send nanoo "Random Deal" 
 bind ^f4 send amoeben "Wild Card"
+bind @f1 send amoeben exec LightShot
+bind @f3 send nanoo exec LightShot
 
-bind !@e sat youcommand amoeben "Carnage Elegy"; wait 6;sat youcommand amoeben "Light Threnody II"
-bind !e sat youcommand peipei "Silence"
-bind ~e send Ellesas "Full Circle"
 
-bind !delete sat youcommand ellesas stun; wait .5; send @all /echo STUN JUST USED IT
+bind ~numpad+ send ellesas exec stun
 
 bind @numpad+ sat youcommand amoeben "Horde Lullaby II";
 
+--- ellesas Geo --- 
+
+bind ~!i send ellesas input /ma "Cure II" Akiro
 bind ~numpad1 send ellesas input /ja "Blaze of Glory" <ellesas>; wait 2; sat youcommand ellesas "Geo-Frailty"; wait 6; send ellesas input /ja "Entrust" <me>; wait 2; send ellesas input /ma "Indi-Vex" 'akiro'; wait 1; send akiro /p GEO Indi ( Geo DON ); wait 20; send ellesas input /ja "Life Cycle" <ellesas>; wait 25; send ellesas input /ja "Dematerialize" <Ellesas>;
 bind ~numpad2 send Ellesas input /ja "Blaze of Glory" <Ellesas>; wait 2; sat youcommand Ellesas "Geo-Wilt"; send @all /echo GEO ATT down Ready
-bind ~numpad3 send Ellesas input /ja "Blaze of Glory" <Ellesas>; wait 2; sat youcommand Ellesas "Geo-Torpor"; send @all /echo eve down Ready
+bind ~numpad6 send Ellesas input /ja "Indi-Acumen" ellesas; wait .5; send @all /echo GEO MAB Ready
 bind ~numpad4 send ellesas input /ma "Indi-Fury" ellesas; wait .5; send @all /echo Indi ATT op Ready
-bind ~numpad5 send Ellesas input /ma "Indi-Wilt" Ellesas; wait .5; send @all /echo Indi ATT down Ready
-bind ~numpad6 send Ellesas input /ma "Indi-Haste" Ellesas; wait .5; send @all /echo GEO Indi-Haste Ready
+bind ~numpad5 send Ellesas input /ma "Indi-Barrier" Ellesas; wait .5; send @all /echo Indi +++ DEF
+bind ~numpad3 send Ellesas input /ja "Blaze of Glory" <Ellesas>; wait 2; sat youcommand Ellesas "Geo-Malaise"; wait 6; send Ellesas input /ja "Entrust" <me>; wait 2; send Ellesas input /ma "Indi-Int" 'Peipei'; wait 1; send akiro /p GEO Indi ( Geo DON ); wait 20; send Ellesas input /ja "Life Cycle" <Ellesas>; wait 25; send Ellesas input /ja "Dematerialize" <Ellesas>;
 bind ~numpad7 send Ellesas input /ma "Indi-Refresh" Ellesas; wait .5; send @all /echo GEO Indi-Refresh Ready
-bind ~numpad8 send Ellesas input /ma "Indi-Precision" Ellesas; wait .5; send @all /echo GEO Indi-acc Ready
+bind ~numpad8 send Ellesas input /ma "Indi-Haste" Ellesas; wait .5; send @all /echo GEO Haste Ready
 bind ~numpad9 send Ellesas exec Bolster
 bind ~numpad+ sat youcommand Ellesas "Dispel";
-bind @pagedown sat youcommand Akiro "Carnage Elegy"; wait 6;sat youcommand Akiro "Light Threnody II"
-bind @end sat youcommand Nerval "Silence"
-bind @delete sat youcommand Nerval "Addle II"
-bind ^delete sat youcommand amoeben "Magic Finale"; wait .1;sat youcommand ellesas "Dispel"; wait 3;sat youcommand Nerval "Dispel"; wait .5; send @all /echo Dispel
-bind !f6 sat youcommand Amoeben "Magic Finale";
-bind !f5  sat youcommand ellesas "dia"; sat youcommand Nerval "dia III"; wait 3;sat youcommand nanoo "Light Shot"; wait 1;sat youcommand amoeben "Carnage Elegy"; wait 2;sat youcommand Nerval "Frazzle III"; wait 6;sat youcommand Nerval "Distract III"; wait 6;sat youcommand Nerval "Slow II"; wait 6;sat youcommand Nerval "Paralyze II";sat youcommand Nerval "Addle II"; wait 1;sat youcommand amoeben "Light Threnody II"
+
+--- pei Geo --- 
+
 
 bind ~^numpad1 send Peipei input /ja "Blaze of Glory" <Peipei>; wait 2; sat youcommand Peipei "Geo-Frailty"; wait 6; send Peipei input /ja "Entrust" <me>; wait 2; send Peipei input /ma "Indi-Vex" 'akiro'; wait 1; send akiro /p GEO Indi ( Geo DON ); wait 20; send Peipei input /ja "Life Cycle" <Peipei>; wait 25; send Peipei input /ja "Dematerialize" <Peipei>;
 bind ~^numpad2 send Peipei input /ja "Blaze of Glory" <Peipei>; wait 2; sat youcommand Peipei "Geo-Wilt"; send @all /echo GEO ATT down Ready
-bind ~^numpad3 send Peipei input /ja "Blaze of Glory" <Peipei>; wait 2; sat youcommand Peipei "Geo-Torpor"; send @all /echo eve down Ready
+bind ~^numpad6 send Peipei input /ja "Indi-Acumen" Peipei; wait .5; send @all /echo GEO MAB Ready
 bind ~^numpad4 send Peipei input /ma "Indi-Fury" Peipei; wait .5; send @all /echo Indi ATT op Ready
-bind ~^numpad5 send Peipei input /ma "Indi-Wilt" Peipei; wait .5; send @all /echo Indi ATT down Ready
-bind ~^numpad6 send Peipei input /ma "Indi-Haste" Peipei; wait .5; send @all /echo GEO Indi-Haste Ready
+bind ~^numpad5 send Peipei input /ma "Indi-Barrier" Peipei; wait .5; send @all /echo Indi +++ DEF
+bind ~^numpad3 send Peipei input /ja "Blaze of Glory" <Peipei>; wait 2; sat youcommand Peipei "Geo-Malaise"; wait 6; send Peipei input /ja "Entrust" <me>; wait 2; send Peipei input /ma "Indi-Int" 'akiro'; wait 1; send akiro /p GEO Indi ( Geo DON ); wait 20; send Peipei input /ja "Life Cycle" <Peipei>; wait 25; send Peipei input /ja "Dematerialize" <Peipei>;
 bind ~^numpad7 send Peipei input /ma "Indi-Refresh" Peipei; wait .5; send @all /echo GEO Indi-Refresh Ready
-bind ~^numpad8 send Peipei input /ma "Indi-Precision" Peipei; wait .5; send @all /echo GEO Indi-acc Ready
+bind ~^numpad8 send Peipei input /ma "Indi-Haste" Peipei; wait .5; send @all /echo GEO Haste Ready
+bind ~^numpad9 send Peipei exec Bolster
 bind ~^numpad9 send Peipei exec Bolster
 
-bind !@i send Amoeben input /ma "Cure III" Akiro
-bind !@o send Amoeben input /ma "Cure IV" Akiro
-bind !@p send Amoeben input /ma "Curaga III" Akiro
 
+bind ~^
+       --- pei sch
+--- bind ~^i send Peipei CureIV Akiro; wait 1;send @all /echo Cure IV Akiro
+--- bind ~^o send Peipei CureV Akiro; wait 1;send @all /echo Cure V Akiro
+--- bind ~^p send Peipei CureVI Akiro; wait 1;send @all /echo Cure VI Akiro
+--- bind ~^j send Peipei CuragaIII Akiro; wait 1;send @all /echo Curaga III Akiro
+
+--- bind ~^c send Peipei Silena akiro; wait 1;send @all /echo Silena me
+--- bind ~^v send Peipei Erase akiro; wait 1;send @all /echo Erase me
+--- bind ~^b send Peipei Paralyna akiro; wait 1;send @all /echo Paralyna me
+--- bind ~^n send Peipei Stona akiro; wait 1;send @all /echo Stona me
+--- bind ~^m send Peipei Cursna akiro; wait 1;send @all /echo Cursna me
+--- bind ~^, send Peipei Viruna akiro; wait 1;send @all /echo Viruna me
+--- bind ~^. send Peipei Poisona akiro; wait 1;send @all /echo Poisona me
+
+--- bind ~^numpad0 send Peipei exec la;send @all /echo Light Arts
+--- bind ~^numpad1 send Peipei exec RegenV;send @all /echo RegenV Akiro
+--- bind ~^numpad2 send Peipei 
+--- bind ~^numpad3 send Peipei exec da;send @all /echo Dark Arts
+--- bind ~^numpad4 send Peipei exec lae; wait 1;send @all /echo Sandstorm II
+--- bind ~^numpad5 send Peipei exec FirestormII; wait 1;send @all /echo Firestorm
+--- bind ~^numpad6 send Peipei exec ThunderstormII;send @all /echo Thunderstorm
+--- bind ~^numpad7 send Peipei exec mbStone;send @all /echo mb Stone
+--- bind ~^numpad8 send Peipei exec mbFire;send @all /echo mb Fire
+--- bind ~^numpad9 send Peipei exec mbThunder;send @all /echo mb Thunder
+--- bind ~^g send Peipei exec schbase;send @all /echo schbase Peipei
+--- bind ~^numpad- send Peipei exec TabulaRasa;send @all /echo Tabula Rasa (One houer) Peipei
+
+
+bind ~i send ellesas CureIII Akiro
+bind ~o send ellesas CureIV Akiro
+bind ~p send ellesas Curaga II Akiro
+
+       --- Nanoo sch
+bind ^!i send Nanoo CureIV Akiro; wait 1;send @all /echo Cure IV Akiro
+bind ^!o send Nanoo CureV Akiro; wait 1;send @all /echo Cure V Akiro
+bind ^!p send Nanoo CureVI Akiro; wait 1;send @all /echo Cure VI Akiro
+bind ^!j send Nanoo CuragaIII Akiro; wait 1;send @all /echo Curaga III Akiro
+
+bind ^!c send Nanoo Silena akiro; wait 1;send @all /echo Silena me
+bind ^!v send Nanoo Erase akiro; wait 1;send @all /echo Erase me
+bind ^!b send Nanoo Paralyna akiro; wait 1;send @all /echo Paralyna me
+bind ^!n send Nanoo Stona akiro; wait 1;send @all /echo Stona me
+bind ^!m send Nanoo Cursna akiro; wait 1;send @all /echo Cursna me
+bind ^!, send Nanoo Viruna akiro; wait 1;send @all /echo Viruna me
+bind ^!. send Nanoo Poisona akiro; wait 1;send @all /echo Poisona me
+
+bind ^!numpad0 send Nanoo exec la;send @all /echo Light Arts
+bind ^!numpad1 send Nanoo exec RegenV;send @all /echo RegenV Akiro
+bind ^!numpad2 send Nanoo 
+bind ^!numpad3 send Nanoo exec da;send @all /echo Dark Arts
+bind ^!numpad4 send Nanoo exec lae; wait 1;send @all /echo Sandstorm II
+bind ^!numpad5 send Nanoo exec FirestormII; wait 1;send @all /echo Firestorm
+bind ^!numpad6 send Nanoo exec ThunderstormII;send @all /echo Thunderstorm
+bind ^!numpad7 send Nanoo exec mbStone;send @all /echo mb Stone
+bind ^!numpad8 send Nanoo exec mbFire;send @all /echo mb Fire
+bind ^!numpad9 send Nanoo exec mbThunder;send @all /echo mb Thunder
+bind ^!g send Nanoo exec schbase;send @all /echo schbase Nanoo
+bind ^!numpad- send Nanoo exec TabulaRasa;send @all /echo Tabula Rasa (One houer) Nanoo
+
+bind !e sat youcommand ellesas Silence    
 bind !g send Peipei exec WHMbase
-bind @i send Peipei input /ma "Cure IV" monkeydlufffy
-bind @o send Peipei input /ma "Cure V" monkeydlufffy
-bind @p send Peipei input /ma "Cure VI" monkeydlufffy
-bind ~i send Peipei input /ma "Cure IV" ellesas
-bind ~o send Peipei input /ma "Cure V" ellesas
-bind ~p send Peipei input /ma "Cure VI" ellesas
-bind ^i send Peipei input /ma "Cure IV" Amoeben
-bind ^o send Peipei input /ma "Cure V" Amoeben
-bind ^p send Peipei input /ma "Cure VI" Amoeben
-bind !i send Peipei input /ma "Cure IV" Akiro
-bind !o send Peipei input /ma "Cure V" Akiro
-bind !p send Peipei input /ma "Cure VI" Akiro
-bind !j send Peipei input /ma "Curaga III" Akiro
-bind !k send Peipei input /ma "Curaga IV" Akiro
-bind !l send Peipei input /ma "Curaga V" Akiro
-bind ~j send Peipei input /ma "Curaga III" Peipei
-bind ~k send Peipei input /ma "Curaga IV" Peipei
-bind ~l send Peipei input /ma "Curaga V" Peipei
+bind @i send Peipei CureIV Nerval; wait 1;send @all /echo Cure IV Nerval
+bind @o --- kan ikke bruges ---
+bind @p send Peipei CureIV monkeydlufffy; wait 1;send @all /echo Cure IV monkeydlufffy
+bind ~i send Peipei CureIV ellesas; wait 1;send @all /echo Cure IV ellesas
+bind ~o send Peipei CureV ellesas; wait 1;send @all /echo Cure IV ellesas
+bind ~p send Peipei CureVI ellesas; wait 1;send @all /echo Cure IV ellesas
+bind ^i send Peipei CureIV Amoeben; wait 1;send @all /echo Cure IV Amoeben
+bind ^o send Peipei CureV Amoeben; wait 1;send @all /echo Cure IV Amoeben
+bind ^p send Peipei CureVI Amoeben; wait 1;send @all /echo Cure IV Amoeben
+bind !i send Peipei CureIV Akiro; wait 1;send @all /echo Cure IV Akiro
+bind !o send Peipei CureV Akiro; wait 1;send @all /echo Cure V Akiro
+bind !p send Peipei CureVI Akiro; wait 1;send @all /echo Cure VI Akiro
+bind !j send Peipei CuragaIII Akiro; wait 1;send @all /echo Curaga III Akiro
+bind !k send Peipei CuragaIV Akiro; wait 1;send @all /echo Curaga IV Akiro
+bind !l send Peipei CuragaV Akiro; wait 1;send @all /echo Curaga V Akiro
+bind @s send Peipei input /ma "Repose" Akiro
+bind ~j send Peipei CuragaIII Peipei; wait 1;send @all /echo Curaga III Peipei
+bind ~k send Peipei CuragaIV Peipei; wait 1;send @all /echo Curaga III Peipei
+bind ~l send Peipei CuragaV Peipei; wait 1;send @all /echo Curaga III Peipei
 bind ~c send Peipei Silena Peipei
 bind ~v send Peipei Erase Peipei
 bind ~b send Peipei Paralyna Peipei
@@ -177,34 +236,86 @@ bind ~n send Peipei Stona Peipei
 bind ~m send Peipei Cursna Peipei
 bind ~, send Peipei Viruna Peipei
 bind ~. send Peipei Poisona Peipei
-bind !c send Peipei Silena akiro
-bind !v send Peipei Erase akiro
-bind !b send Peipei Paralyna akiro
-bind !n send Peipei Stona akiro
-bind !m send Peipei Cursna akiro
-bind !, send Peipei Viruna akiro
-bind !. send Peipei Poisona akiro
-bind @y send Peipei input /ja "accession" Peipei; wait 1;send Peipei input /ma "Regen IV" Akiro;
+bind @c send Peipei Haste akiro; wait 1;send @all /echo Haste me
+bind !c send Peipei Silena akiro; wait 1;send @all /echo Silena me
+bind !v send Peipei Erase akiro; wait 1;send @all /echo Erase me
+bind !b send Peipei Paralyna akiro; wait 1;send @all /echo Paralyna me
+bind !n send Peipei Stona akiro; wait 1;send @all /echo Stona me
+bind !m send Peipei Cursna akiro; wait 1;send @all /echo Cursna me
+bind !, send Peipei Viruna akiro; wait 1;send @all /echo Viruna me
+bind !. send Peipei Poisona akiro; wait 1;send @all /echo Poisona me
+bind @y send Peipei input /ja "accession" Peipei
 bind @a send Peipei input /ja "Asylum" Peipei
 bind @b send Peipei input /ja "Benediction" Peipei
-bind @s send Peipei input /ja "Sacrosanctity" Peipei
+bind ~^g send Peipei exec schbase
+bind ~^r send Peipei exec RegenV
 
-
-alias re send Peipei input /ma "Arise" Ellesas
-alias ramo send Peipei input /ma "Arise" Amoeben
-alias ra send Peipei input /ma "Arise" Akiro
-alias smn3 send amoeben exec smn3
-alias smn2 send amoeben exec smn2
-alias smn1 send amoeben exec smn1
+alias pupa send amoeben input /ja "Deploy" amoeben
+alias pupb send amoeben exec Maneuver
+alias pet sat youcommand Amoeben MewingLullaby
+alias enter send akiro exec enter1
+alias amomab send amoeben exec cor2
+alias nanoomb3 send nanoo exec mbThunder
+alias peimb3 send Peipei exec mbThunder
+alias nanoomb2 send nanoo exec mbFire
+alias peimb2 send Peipei exec mbFire
+alias nanoomb1 send nanoo exec mbStone
+alias peimb1 send Peipei exec mbStone
+alias nanoos3 send nanoo exec ThunderstormII; wait 1;send @all /echo Thunderstorm II
+alias peis3 send Peipei exec ThunderstormII; wait 1;send @all /echo Thunderstorm II
+alias nanoos2 send nanoo exec FirestormII; wait 1;send @all /echo Firestorm II
+alias peis2 send Peipei exec FirestormII; wait 1;send @all /echo Firestorm II
+alias nanoos1 send nanoo exec lae; wait 1;send @all /echo Sandstorm II
+alias peis1 send Peipei exec lae; wait 1;send @all /echo Sandstorm II
+alias ba send Akiro Burst Affinity
+alias et2 sat youcommand Amoeben EarthThrenodyII
+alias firega sat youcommand Ellesas FiraIII
+alias fire5 sat youcommand Ellesas FireV
+alias fire3 sat youcommand Ellesas FireIII
+alias stonga sat youcommand Ellesas StoneraIII
+alias ston5 sat youcommand Ellesas StoneV
+alias ston3 sat youcommand Ellesas StoneIII
+alias Thunderga sat youcommand Ellesas ThundaraIII
+alias Thunder5 sat youcommand Ellesas ThunderV
+alias Thunder3 sat youcommand Ellesas ThunderIII
+alias nanooda send Nanoo exec da
+alias peida send Peipei exec da
+alias nanoola send Nanoo exec la
+alias peila send Peipei exec la
+alias mb send Akiro exec scmb
+alias rauto send ellesas gs c toggle RngHelper; wait 0,5;send Nanoo gs c toggle RngHelper
+alias h send Peipei Haste Akiro
+alias h2 send Peipei HasteII Akiro
+alias ref3 send Peipei RefreshIII Akiro
+alias exh send Amoeben exec Aexh
+alias exa send Amoeben exec Aexa
+alias exs send Amoeben exec Aexs
+alias hpal hp all Leafallia
+alias smn+ send Akiro exec smn+
+alias dia sat youcommand Peipei DiaII
+alias mf sat youcommand Amoeben MagicFinale; wait 1;send @all /echo Magic Finale
+alias r5 send nanoo exec RegenV
+alias wg send Akiro exec Whitegate
+alias r4 send Peipei exec RegenVI
+alias mp+ send Peipei Devotion Akiro; wait 1;send @all /echo mp fra kel
+alias speed send nanoo Bolter's Roll
+alias blu send Akiro aset set blu
+alias bluaoe send Akiro aset set aoe
+alias blusp send Akiro aset set sp
+alias mab send Akiro exec mab1
+alias heal send @all /heal
+alias tp+ send peipei exec tp
+alias allh2 send peipei exec HasteII
+alias re send Peipei Arise Ellesas; wait 1;send @all /echo Arise Ellesas
+alias ramo send Peipei Arise Amoeben; wait 1;send @all /echo Arise Amoeben
+alias ra send Peipei Arise Akiro; wait 1;send @all /echo Arise Akiro
+alias rnanoo send Peipei Arise Nanoo; wait 1;send @all /echo Arise Nanoo
 alias brun send amoeben exec brdrun
 alias run1 send Akiro exec run
 alias inv send Akiro exec inv
 alias kin send ellesas exec kin
 alias sd sa /shutdown
 alias jobs sa /p <job>
-alias stun send Akiro exec stun
-alias woc send Akiro exec woc
-alias gma send ellesas exec geomacc
 alias rsj send @all jc reset
 alias hs send @all /ma 'Haste Samba'
 alias nin send @all /ma 'Utsusemi: Ni'
@@ -220,6 +331,7 @@ alias fa Findall
 alias famc Findall mystical canteen
 alias sa send @all
 alias e exec
+alias rdn send nanoo input /ja 'Random Deal' nanoo
 alias rda send Amoeben input /ja 'Random Deal' Amoeben
 alias rde send Ellesas input /ja 'Random Deal' Ellesas
 alias ta send Akiro input /item 'lucid Wings II' Akiro
@@ -227,7 +339,13 @@ alias te send ellesas input /item 'lucid Wings II' ellesas
 alias tp send Peipei input /item 'lucid Wings II' Peipei
 alias tamo send Amoeben input /item 'lucid Wings II' Amoeben
 alias ato send @all /autotarget off
-alias wce send Ellesas input /ja 'Wild Card' Ellesas
-alias wca send Amoeben input /ja 'Wild Card' Amoeben
+alias wce send Ellesas Wild Card Ellesas
+alias wca send Amoeben Wild Card Amoeben
+alias wcn send Nanoo Wild Card Nanoo
 alias pt send @all treasury passall
 alias lt send @all treasury lotall
+alias lamo send Akiro exec treasuryamo
+alias lelle send Akiro exec treasuryelle
+alias lpei send Akiro exec treasurypei
+alias lnanoo send Akiro exec treasurynanoo
+alias db+ Akiro exec db
