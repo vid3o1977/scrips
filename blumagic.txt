@@ -1,0 +1,77 @@
+                Mboze
+				
+				<slot01>sudden lunge</slot01>
+                <slot02>tail slap</slot02>
+                <slot03>blinding fulgor</slot03>
+                <slot04>barbed crescent</slot04>
+                <slot05>embalming earth</slot05>
+                <slot06>white wind</slot06>
+                <slot07>palling salvo</slot07>
+                <slot08>reaving wind</slot08>
+                <slot09>silent storm</slot09>
+                <slot10>diamondhide</slot10>
+                <slot12>dream flower</slot12>
+                <slot13>poison breath</slot13>
+                <slot14>occultation</slot14>
+                <slot15>delta thrust</slot15>
+                <slot16>tenebral crush</slot16>
+                <slot17>cocoon</slot17>
+                <slot18>feather tickle</slot18>
+                <slot19>paralyzing triad</slot19>
+                <slot20>blank gaze</slot20>
+				
+				
+				DD
+				
+				<slot01>delta thrust</slot01>
+                <slot02>barbed crescent</slot02>
+                <slot03>thrashing assault</slot03>
+                <slot04>heavy strike</slot04>
+                <slot05>empty thrash</slot05>
+                <slot06>paralyzing triad</slot06>
+                <slot07>erratic flutter</slot07>
+                <slot08>sudden lunge</slot08>
+                <slot09>fantod</slot09>
+                <slot10>sinker drill</slot10>
+                <slot11>nat. meditation</slot11>
+                <slot12>tail slap</slot12>
+                <slot13>diffusion ray</slot13>
+                <slot14>sickle slash</slot14>
+                <slot15>cocoon</slot15>
+                <slot16>Dream Flower</slot16>
+                <slot17>White Wind</slot17>
+                <slot18>Occultation</slot18>
+                <slot19>Tenebral Crush</slot19>
+				
+				AOE Farm
+				
+				<slot01>Delta Thrust</slot01>
+                <slot02>Barbed Crescent</slot02>
+                <slot03>Erratic Flutter</slot03>
+                <slot04>Spectral Floe</slot04>
+                <slot05>Subduction</slot05>
+                <slot06>Magic Hammer</slot06>
+                <slot07>Reactor Cool</slot07>
+                <slot08>Cursed Sphere</slot08>
+                <slot09>Sound Blast</slot09>
+                <slot10>Entomb</slot10>
+                <slot11>Tenebral Crush</slot11>
+                <slot12>Blinding Fulgor</slot12>
+                <slot13>Occultation</slot13>
+                <slot14>Diamondhide</slot14>
+                <slot15>Dream Flower</slot15>
+                <slot16>cocoon</slot16>
+                <slot17>sudden lunge</slot17>
+                <slot18>White Wind</slot18>
+				
+				tank /blu 
+Sheep Song 2 (AoE Enmity) jeg har
+Cocoon 1 (Increases Defense by 50%.) jeg har
+Jettatura 4 (Enmity) jeg har
+Blank Gaze 2 (Enmity) jeg har
+Geist Wall 3 (AoE Enmity) jeg har
+Healing Breeze 4 (Curaga II) jeg har
+Grand Slam 2 (defense Bonus) jeg har
+Terror Touch 3 (defense Bonus) jeg har
+Screwdriver 3 (Evasion Bonus) jeg har
+Frightful Roar Weakens defense of enemies within range
